@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "revo",
+      "script": "app.js",
+      "watch": true,
+      "exec_args": ["--experimental-modules"],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    }
+  ]
+}
